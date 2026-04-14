@@ -12,11 +12,11 @@ A company can be understood through three linked questions: what it is, what it 
 
 ### Working Definition
 
-For this book, the most useful working definition is that a company is a legally bounded, economically coordinated, managerially organized system for deploying people, capital, knowledge, and assets toward a shared objective. That definition matters because it creates a bridge between traditional firms and the future pattern you want to explore: one human coordinating many agents.
+For this book, the most useful working definition is that a company is not one thing but several things at once: a legal shell, a boundary for economic activity, a structure for agency, a container for accumulated capability, and a managerial system for coordinated scale. That broader definition matters because it creates a bridge between traditional firms and the future pattern you want to explore: one human coordinating many agents.
 
 ### Why This Matters for the Book
 
-If a company is mainly a coordination and governance system, then the question for the AI era is not whether companies disappear. The better question is which parts of the company remain human, which parts become agentic, and what the minimum human layer needs to look like to keep the whole system coherent.
+If a company is mainly a coordination and governance system, then the question for the AI era is not whether companies disappear. The better question is which parts of the company remain human, which parts become agentic, and what the minimum human layer needs to look like to keep the whole system coherent. The main synthesis entry point for that question in this cluster is [What a Company Actually Is](what-a-company-actually-is/index.md).
 
 ### Related Pages
 

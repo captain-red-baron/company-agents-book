@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
+                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "edith-penrose-on-the-firm"
+              "title": "company-as-a-decision-system"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
+                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf edith-penrose-on-the-firm"
+              "title": "Rückverweise auf company-as-a-decision-system"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
+                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von edith-penrose-on-the-firm öffnen"
+              "title": "Ausgehende Links von company-as-a-decision-system öffnen"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
+                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von edith-penrose-on-the-firm"
+              "title": "Gliederung von company-as-a-decision-system"
             }
           }
         ]
@@ -185,10 +185,15 @@
   },
   "active": "64ab910c70824de3",
   "lastOpenFiles": [
+    "wiki/concepts/company/what-a-company-does/company-as-a-coordination-system.md",
+    "wiki/concepts/company/what-a-company-does/index.md",
     "wiki/concepts/company/what-a-company-actually-is/index.md",
+    "wiki/concepts/company/what-a-company-actually-is/alfred-chandler-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
     "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
     "wiki/concepts/company/what-a-company-actually-is/oliver-williamson-on-the-firm.md",
     "wiki/concepts/company/what-a-company-actually-is/ronald-coase-on-the-firm.md",
+    "raw/research/2026-04-14-company-definition-research.md",
     "wiki/concepts/company/what-a-company-actually-is/legal-personhood-and-the-company.md",
     "wiki/concepts/what-a-company-actually-is.md",
     "wiki/concepts/company/how-a-company-is-built/capabilities-learning-and-adaptation.md",
@@ -200,17 +205,12 @@
     "wiki/concepts/company/what-a-company-does/company-as-an-accountability-system.md",
     "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
     "wiki/concepts/company/what-a-company-does/company-as-a-production-and-delivery-system.md",
-    "wiki/concepts/company/what-a-company-does/company-as-a-coordination-system.md",
-    "wiki/concepts/company/what-a-company-does/index.md",
-    "wiki/concepts/company/what-a-company-actually-is/alfred-chandler-on-the-firm.md",
-    "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
     "wiki/concepts/company/what-a-company-does",
     "wiki/concepts/company/what-a-company-actually-is",
     "wiki/concepts/company/index.md",
     "wiki/concepts/company/how-a-company-is-built",
     "wiki/concepts/company",
     "wiki/concepts/company.md",
-    "raw/research/2026-04-14-company-definition-research.md",
     "raw/research/2026-04-14-company-architecture-research.md",
     "wiki/concepts/company-as-a-coordination-system.md",
     "wiki/concepts/capabilities-learning-and-adaptation.md",

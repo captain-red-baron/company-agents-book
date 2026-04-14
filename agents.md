@@ -109,6 +109,9 @@ Rules for this pattern:
 - Each anchor folder groups one major sub-question
 - Spokes should sit underneath the anchor they explain
 - Cross-links should favor nearby relative paths so the hierarchy remains obvious in Obsidian and in git
+- The hub pages are the primary synthesis pages and should be the main place where higher-level understanding is updated over time
+- Anchor pages should synthesize one major sub-question and point down into the supporting spokes
+- Spoke pages should carry the detailed explanatory and source-grounded supporting material that feeds the synthesis above
 
 ### Deepest-Level Research Page Structure
 
@@ -127,11 +130,14 @@ Required structure for deepest-level research pages:
 
 Rules for deepest-level research pages:
 - `Core Idea` should explain the concept in one compact high-signal paragraph
-- `Details` should provide enough context, interpretation, and explanation that the page is useful on its own
+- `Details` should be meaningfully in-depth, not just a short expansion of the core idea
+- `Details` should usually be multiple paragraphs and should explain the logic, implications, distinctions, and practical relevance of the concept
+- `Details` should give enough context that the page is genuinely educational on its own, even before the reader opens the source links
 - `Source Links` should point directly to the actual external sources, publications, papers, books, canonical summaries, or official references
 - `Related Pages` should connect the spoke back to its anchor, sibling ideas, and nearby structural pages
 - `Sources` should still list the internal `raw/` notes that informed the page
 - Hubs and anchor pages can stay shorter and more navigational, but deepest-level pages should carry the explanatory weight
+- Hubs should be the main synthesis layer where the project's current understanding, working definitions, and evolving conclusions are refined over time
 
 ### `outputs/` — Publishable Work Product
 - Drafted, reviewed, and final writing assets for the book project.
