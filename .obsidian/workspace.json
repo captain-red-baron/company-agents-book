@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "outputs/manuscript/about-the-author.md",
+                "file": "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about-the-author"
+              "title": "jensen-and-meckling-on-the-firm"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "outputs/manuscript/about-the-author.md",
+                "file": "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf about-the-author"
+              "title": "Rückverweise auf jensen-and-meckling-on-the-firm"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "outputs/manuscript/about-the-author.md",
+                "file": "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von about-the-author öffnen"
+              "title": "Ausgehende Links von jensen-and-meckling-on-the-firm öffnen"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "outputs/manuscript/about-the-author.md",
+                "file": "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von about-the-author"
+              "title": "Gliederung von jensen-and-meckling-on-the-firm"
             }
           }
         ]
@@ -185,20 +185,41 @@
   },
   "active": "64ab910c70824de3",
   "lastOpenFiles": [
-    "journal/2026-04-14.md",
-    "outputs/manuscript/about-the-author.md",
-    "wiki/book/about-the-author.md",
-    "raw/notes/2026-04-14-author-background.md",
-    "wiki/index.md",
+    "wiki/concepts/company/what-a-company-actually-is/index.md",
+    "wiki/concepts/company/what-a-company-actually-is/oliver-williamson-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-actually-is/ronald-coase-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-actually-is/legal-personhood-and-the-company.md",
+    "wiki/concepts/what-a-company-actually-is.md",
+    "wiki/concepts/company/how-a-company-is-built/capabilities-learning-and-adaptation.md",
+    "wiki/concepts/company/how-a-company-is-built/processes-routines-and-operating-systems.md",
+    "wiki/concepts/company/how-a-company-is-built/structure-roles-and-spans-of-control.md",
+    "wiki/concepts/company/how-a-company-is-built/governance-control-and-incentives.md",
+    "wiki/concepts/company/how-a-company-is-built/legal-shell-ownership-and-boundaries.md",
+    "wiki/concepts/company/how-a-company-is-built/index.md",
+    "wiki/concepts/company/what-a-company-does/company-as-an-accountability-system.md",
+    "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+    "wiki/concepts/company/what-a-company-does/company-as-a-production-and-delivery-system.md",
+    "wiki/concepts/company/what-a-company-does/company-as-a-coordination-system.md",
+    "wiki/concepts/company/what-a-company-does/index.md",
+    "wiki/concepts/company/what-a-company-actually-is/alfred-chandler-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-actually-is/edith-penrose-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-actually-is/jensen-and-meckling-on-the-firm.md",
+    "wiki/concepts/company/what-a-company-does",
+    "wiki/concepts/company/what-a-company-actually-is",
+    "wiki/concepts/company/index.md",
+    "wiki/concepts/company/how-a-company-is-built",
+    "wiki/concepts/company",
+    "wiki/concepts/company.md",
+    "raw/research/2026-04-14-company-definition-research.md",
+    "raw/research/2026-04-14-company-architecture-research.md",
+    "wiki/concepts/company-as-a-coordination-system.md",
+    "wiki/concepts/capabilities-learning-and-adaptation.md",
+    "wiki/concepts/processes-routines-and-operating-systems.md",
     "journal",
     "outputs/assets",
     "outputs/proposals",
     "outputs/outlines",
     "outputs/marketing",
-    "outputs/manuscript",
-    "outputs",
-    "wiki/frameworks",
-    "wiki/examples",
-    "wiki/concepts"
+    "outputs/manuscript"
   ]
 }

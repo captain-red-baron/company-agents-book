@@ -74,12 +74,41 @@ Writing guidelines:
   - `claims/` — Important factual claims, statistics, references, and verification status
 - **Wiki article rules:**
   - Each article is one `.md` file, named with kebab-case (e.g., `single-human-leverage.md`)
+  - For hub-and-spoke research clusters, use folders to reflect hierarchy instead of keeping all pages flat
+  - The hub page of a cluster should live at `.../topic/index.md`
+  - Level-2 anchor pages should live in subfolders with their own `index.md`
+  - Spoke pages should live inside the folder of the anchor they belong to
   - First paragraph is always a 2-3 sentence summary
   - Use `## Sections` for structure
   - End each article with `## Sources` listing which `raw/` files informed it
   - Cross-link related articles using relative markdown links
   - Link URLs, papers, books, and publications using Markdown links, not plain URLs
   - Include a `## Last Updated` line at the bottom with the date
+
+### Hub-and-Spoke Folder Pattern
+
+When a topic grows into a research cluster, organize it like this:
+
+```text
+wiki/concepts/topic/
+  index.md
+  anchor-a/
+    index.md
+    spoke-1.md
+    spoke-2.md
+  anchor-b/
+    index.md
+    spoke-3.md
+  anchor-c/
+    index.md
+    spoke-4.md
+```
+
+Rules for this pattern:
+- The top-level `index.md` is the hub
+- Each anchor folder groups one major sub-question
+- Spokes should sit underneath the anchor they explain
+- Cross-links should favor nearby relative paths so the hierarchy remains obvious in Obsidian and in git
 
 ### `outputs/` — Publishable Work Product
 - Drafted, reviewed, and final writing assets for the book project.
