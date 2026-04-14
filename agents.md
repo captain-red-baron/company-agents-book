@@ -15,6 +15,39 @@ This repo follows a **Kaparthy-style wiki workflow**:
 
 ---
 
+## Who This Book Is For
+
+This book is written for:
+- Entrepreneurs building or scaling companies
+- People who want to become entrepreneurs
+- Solo entrepreneurs and small operators looking for leverage
+- Business owners who want to redesign how their company works
+- Leaders who believe AI agents will change how execution, delegation, and scale work inside firms
+
+This book is not written as an academic text, even when it draws on serious ideas. It is written for practical readers who want better mental models, clearer strategic options, and usable ways to rethink their business.
+
+---
+
+## Book Writing Style
+
+The writing style for this book should be:
+- Direct, clear, and business-oriented
+- Personal and experience-based whenever appropriate
+- Written with frequent direct address to the reader to build connection and momentum
+- Insightful and ambitious without sounding academic or abstract for its own sake
+- Grounded in real operating questions faced by entrepreneurs, solo entrepreneurs, and business builders
+
+Writing guidelines:
+- Speak from lived experience often, especially when making a strategic point or introducing a hard-earned lesson
+- Address the reader directly using `you` when it improves clarity, relevance, or energy
+- Prefer strong, simple language over academic phrasing
+- Use concepts from other thinkers when useful, but name them explicitly and attach a citation
+- When borrowing a framework, idea, or term from someone else, mention the person by name in the prose, not only in the sources section
+- Keep the tone practical, credible, and forward-looking
+- Avoid writing as if the audience were scholars; write as if the audience were ambitious operators
+
+---
+
 ## Repository Schema
 
 ### `raw/` — Immutable Source Material
@@ -27,6 +60,7 @@ This repo follows a **Kaparthy-style wiki workflow**:
   - `interviews/` — Conversations with founders, operators, experts, readers, or collaborators
 - Accepted formats: `.md`, `.txt`, `.pdf`, `.png`, `.jpg`, `.csv`, `.xlsx`, `.docx`
 - **Rule:** Never modify files in `raw/`. If corrections are needed, add a new file with a `_corrected` suffix.
+- **Citation rule:** Whenever a raw note references a URL, paper, book, article, or publication, include it as a Markdown link whenever possible.
 
 ### `wiki/` — LLM-Compiled Knowledge Base
 - **The LLM maintains this.** The human edits occasionally when needed.
@@ -44,6 +78,7 @@ This repo follows a **Kaparthy-style wiki workflow**:
   - Use `## Sections` for structure
   - End each article with `## Sources` listing which `raw/` files informed it
   - Cross-link related articles using relative markdown links
+  - Link URLs, papers, books, and publications using Markdown links, not plain URLs
   - Include a `## Last Updated` line at the bottom with the date
 
 ### `outputs/` — Publishable Work Product
@@ -100,6 +135,11 @@ When new files are added to `raw/`:
 4. Update `wiki/index.md` to reflect any new pages
 5. Add a journal entry summarizing what was ingested and why it matters
 
+During ingest:
+- Preserve outbound references to URLs, papers, books, and publications as Markdown links
+- Prefer the original source URL, DOI link, publisher page, or canonical landing page over secondary references
+- When a publication has both a title and URL, use descriptive anchor text rather than pasting the raw link
+
 ### Query (answering questions about the book)
 When asked a question about the book, its thesis, or its content:
 1. Search the wiki first for existing knowledge
@@ -126,6 +166,12 @@ When creating book deliverables:
 4. Mark outputs as `DRAFT` until explicitly reviewed
 5. Store work in the appropriate `outputs/` subfolder
 
+During drafting:
+- Prefer a practical business-book voice over an academic voice
+- Use direct address where it strengthens the relationship with the reader
+- Bring in the author's own experience as evidence, framing, and credibility
+- When using another person's concept, name them in the sentence and include a citation
+
 ### Refactor (restructuring the book)
 When the book structure changes:
 1. Update the master outline in `outputs/outlines/`
@@ -141,10 +187,30 @@ When the book structure changes:
 - **Dates:** Always use `YYYY-MM-DD` format
 - **File naming:** kebab-case for all files
 - **Chapter ordering:** Use numeric prefixes for chapter-related files once the outline stabilizes
-- **Language:** Sharp, ambitious, accessible, and business-oriented
+- **Language:** Sharp, ambitious, accessible, practical, and business-oriented
 - **Source discipline:** Distinguish clearly between verified claims, informed synthesis, and speculative ideas
+- **Linking:** Always format URLs, papers, articles, books, and publications as Markdown links whenever a stable destination exists
+- **Attribution:** When using a concept from another person, name them directly in the text and include a citation
+- **Audience fit:** Default to entrepreneurs, aspiring entrepreneurs, solo entrepreneurs, and owners reshaping their businesses
 - **Confidentiality:** Do not include private data, unpublished personal information, passwords, or sensitive business details without explicit intent
 - **Commit messages:** Use conventional format: `type: description` (e.g., `wiki: add leverage framework`, `raw: add founder interview transcript`, `output: draft chapter 02`)
+
+---
+
+## Current Research Priorities
+
+### First Research Question
+
+The first research track for this book is: **What is a company, really?**
+
+This research should explore:
+- Legal definitions of a company and the firm
+- Economic theories of the firm
+- The company as a coordination system for capital, labor, information, and decision-making
+- The company as an interface for delegation and accountability
+- How agent-based organizations may preserve or transform those functions
+
+The goal is not just to define a company abstractly, but to build a strong foundation for the book's thesis that one human coordinating many agents may become a viable organizational form.
 
 ---
 
