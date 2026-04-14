@@ -6,7 +6,7 @@ As the project grows, this file should point to the most important book, chapter
 ## Sections
 
 ### Book
-- No pages yet
+- [About the Author](book/about-the-author.md)
 
 ### Chapters
 - No pages yet

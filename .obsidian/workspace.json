@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "d226209bea7f5d38",
+    "type": "split",
+    "children": [
+      {
+        "id": "08782e8589cb0660",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64ab910c70824de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "outputs/manuscript/about-the-author.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "about-the-author"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "621efe28a41d0e17",
+    "type": "split",
+    "children": [
+      {
+        "id": "370ca7803eb0573a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae0bc465558f85d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "8aa5a48b4cc9d0b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "fbae5c85ca59ea88",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66753c248f5e29db",
+    "type": "split",
+    "children": [
+      {
+        "id": "9652d99c7df39cb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e54b30bb29d6196",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "outputs/manuscript/about-the-author.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise auf about-the-author"
+            }
+          },
+          {
+            "id": "74f27f00a4290ad4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "outputs/manuscript/about-the-author.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links von about-the-author öffnen"
+            }
+          },
+          {
+            "id": "2ac58d01c28c50d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4772023e51841976",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "476fad22b8a3be95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "outputs/manuscript/about-the-author.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung von about-the-author"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false
+    }
+  },
+  "active": "64ab910c70824de3",
+  "lastOpenFiles": [
+    "journal/2026-04-14.md",
+    "outputs/manuscript/about-the-author.md",
+    "wiki/book/about-the-author.md",
+    "raw/notes/2026-04-14-author-background.md",
+    "wiki/index.md",
+    "journal",
+    "outputs/assets",
+    "outputs/proposals",
+    "outputs/outlines",
+    "outputs/marketing",
+    "outputs/manuscript",
+    "outputs",
+    "wiki/frameworks",
+    "wiki/examples",
+    "wiki/concepts"
+  ]
+}
