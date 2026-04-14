@@ -110,6 +110,29 @@ Rules for this pattern:
 - Spokes should sit underneath the anchor they explain
 - Cross-links should favor nearby relative paths so the hierarchy remains obvious in Obsidian and in git
 
+### Deepest-Level Research Page Structure
+
+The deepest content pages in a hub-and-spoke cluster should be more detailed than hubs and anchor pages. These are the pages where the reader should actually learn the underlying concept in enough depth to use it later in chapter writing.
+
+Required structure for deepest-level research pages:
+- Short opening summary paragraph
+- `## Sections`
+- `### Core Idea`
+- `### Details`
+- `### Source Links`
+- `### Why It Matters`
+- `### Related Pages`
+- `## Sources`
+- `## Last Updated`
+
+Rules for deepest-level research pages:
+- `Core Idea` should explain the concept in one compact high-signal paragraph
+- `Details` should provide enough context, interpretation, and explanation that the page is useful on its own
+- `Source Links` should point directly to the actual external sources, publications, papers, books, canonical summaries, or official references
+- `Related Pages` should connect the spoke back to its anchor, sibling ideas, and nearby structural pages
+- `Sources` should still list the internal `raw/` notes that informed the page
+- Hubs and anchor pages can stay shorter and more navigational, but deepest-level pages should carry the explanatory weight
+
 ### `outputs/` — Publishable Work Product
 - Drafted, reviewed, and final writing assets for the book project.
 - Subfolders:

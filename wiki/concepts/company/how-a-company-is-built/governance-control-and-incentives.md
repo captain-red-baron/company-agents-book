@@ -8,6 +8,19 @@ Once the company exists in law, it needs a system for direction and control. Gov
 
 The [OECD Principles of Corporate Governance](https://legalinstruments.oecd.org/public/doc/151/body-text.en.html) describes governance as a set of relationships between management, the board, shareholders, and other stakeholders, and as the structure through which company objectives are set and performance is monitored. [Investor.gov's corporate governance glossary](https://www.investor.gov/introduction-investing/investing-basics/glossary/corporate-governance) adds a more practical definition: governance is the framework of rules, charters, policies, and processes that determines the leadership, organization, and direction of a company.
 
+### Details
+
+Governance is the layer that turns ownership into operational control. It answers questions like who can approve major moves, who monitors the people in charge, what information must be surfaced, and how incentives are aligned with long-term objectives.
+
+In small firms, governance is often informal at first because the founder controls almost everything. But as companies grow, informal control becomes fragile. Clear rules, reporting expectations, and review mechanisms start to matter because complexity increases faster than intuition can absorb.
+
+This becomes even more important in agent-native firms. If one human is orchestrating many agents, governance is what prevents speed from turning into drift. It defines what the human must retain, what can be delegated, and what oversight has to remain in the loop.
+
+### Source Links
+
+- [OECD Principles of Corporate Governance](https://legalinstruments.oecd.org/public/doc/151/body-text.en.html)
+- [Investor.gov: Corporate governance glossary](https://www.investor.gov/introduction-investing/investing-basics/glossary/corporate-governance)
+
 ### Why It Matters
 
 Governance is where abstract ownership turns into real control. It is also where AI-era firms will face hard questions: what remains under human sign-off, what can be delegated, and what oversight the human principal must retain.
