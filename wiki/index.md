@@ -9,10 +9,11 @@ As the project grows, this file should point to the most important book, chapter
 - [About the Author](book/about-the-author.md)
 
 ### Chapters
-- No pages yet
+- [What a Company Is and What It Does](chapters/what-a-company-is-and-what-it-does.md)
 
 ### Concepts
 - [Company](concepts/company/index.md)
+- [What a Company Is and What It Does](concepts/company/what-a-company-is-and-what-it-does.md)
 - [What a Company Actually Is](concepts/company/what-a-company-actually-is/index.md)
 - [What a Company Does](concepts/company/what-a-company-does/index.md)
 - [How a Company Is Built](concepts/company/how-a-company-is-built/index.md)
@@ -36,6 +37,7 @@ As the project grows, this file should point to the most important book, chapter
 - [raw/research/2026-04-14-company-definition-research.md](../raw/research/2026-04-14-company-definition-research.md)
 - [raw/research/2026-04-14-company-functions-research.md](../raw/research/2026-04-14-company-functions-research.md)
 - [raw/research/2026-04-14-company-architecture-research.md](../raw/research/2026-04-14-company-architecture-research.md)
+- [raw/research/2026-04-14-company-goal-research.md](../raw/research/2026-04-14-company-goal-research.md)
 
 ## Last Updated
 

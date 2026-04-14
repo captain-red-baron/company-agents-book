@@ -20,6 +20,7 @@ If a company is mainly a coordination and governance system, then the question f
 
 ### Related Pages
 
+- [What a Company Is and What It Does](what-a-company-is-and-what-it-does.md)
 - [Legal Personhood and the Company](what-a-company-actually-is/legal-personhood-and-the-company.md)
 - [Ronald Coase on the Firm](what-a-company-actually-is/ronald-coase-on-the-firm.md)
 - [Oliver Williamson on the Firm](what-a-company-actually-is/oliver-williamson-on-the-firm.md)

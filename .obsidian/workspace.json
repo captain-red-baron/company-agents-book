@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+                "file": "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "company-as-a-decision-system"
+              "title": "what-a-company-is-and-what-it-does-draft"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+                "file": "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf company-as-a-decision-system"
+              "title": "Rückverweise auf what-a-company-is-and-what-it-does-draft"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+                "file": "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von company-as-a-decision-system öffnen"
+              "title": "Ausgehende Links von what-a-company-is-and-what-it-does-draft öffnen"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+                "file": "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von company-as-a-decision-system"
+              "title": "Gliederung von what-a-company-is-and-what-it-does-draft"
             }
           }
         ]
@@ -185,6 +185,11 @@
   },
   "active": "64ab910c70824de3",
   "lastOpenFiles": [
+    "wiki/chapters/what-a-company-is-and-what-it-does.md",
+    "wiki/concepts/company/what-a-company-is-and-what-it-does.md",
+    "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
+    "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
+    "raw/research/2026-04-14-company-goal-research.md",
     "wiki/concepts/company/what-a-company-does/company-as-a-coordination-system.md",
     "wiki/concepts/company/what-a-company-does/index.md",
     "wiki/concepts/company/what-a-company-actually-is/index.md",
@@ -203,7 +208,6 @@
     "wiki/concepts/company/how-a-company-is-built/legal-shell-ownership-and-boundaries.md",
     "wiki/concepts/company/how-a-company-is-built/index.md",
     "wiki/concepts/company/what-a-company-does/company-as-an-accountability-system.md",
-    "wiki/concepts/company/what-a-company-does/company-as-a-decision-system.md",
     "wiki/concepts/company/what-a-company-does/company-as-a-production-and-delivery-system.md",
     "wiki/concepts/company/what-a-company-does",
     "wiki/concepts/company/what-a-company-actually-is",
@@ -211,10 +215,6 @@
     "wiki/concepts/company/how-a-company-is-built",
     "wiki/concepts/company",
     "wiki/concepts/company.md",
-    "raw/research/2026-04-14-company-architecture-research.md",
-    "wiki/concepts/company-as-a-coordination-system.md",
-    "wiki/concepts/capabilities-learning-and-adaptation.md",
-    "wiki/concepts/processes-routines-and-operating-systems.md",
     "journal",
     "outputs/assets",
     "outputs/proposals",
