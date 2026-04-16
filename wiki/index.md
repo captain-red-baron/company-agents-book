@@ -10,6 +10,7 @@ As the project grows, this file should point to the most important book, chapter
 
 ### Chapters
 - [What a Company Is and What It Does](chapters/what-a-company-is-and-what-it-does.md)
+- [What an Agent Is](chapters/what-an-agent-is.md)
 
 ### Manuscript
 - [Manuscript Index](../outputs/manuscript/index.md)
