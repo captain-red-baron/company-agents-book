@@ -14,7 +14,7 @@ The company is not one thing. It is a bounded system organized to create, delive
 
 ### Narrative Device
 
-Use Leonie Hartmann as the recurring entrepreneur throughout the chapter. Her story should appear in each major section so the chapter feels like one continuous narrative rather than a stack of theoretical summaries.
+Use Hannah Schmidt as the recurring entrepreneur throughout the chapter. She begins inside a software development agency, unhappy and underused, with a passion for sewing and a growing conviction that industrial sewing and tailoring machines need better software. Her story should appear in each major section so the chapter feels like one continuous narrative rather than a stack of theoretical summaries.
 
 ### Proposed Flow
 
@@ -50,4 +50,3 @@ Use Leonie Hartmann as the recurring entrepreneur throughout the chapter. Her st
 ## Last Updated
 
 2026-04-14
-

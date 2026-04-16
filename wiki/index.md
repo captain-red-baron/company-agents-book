@@ -11,6 +11,9 @@ As the project grows, this file should point to the most important book, chapter
 ### Chapters
 - [What a Company Is and What It Does](chapters/what-a-company-is-and-what-it-does.md)
 
+### Manuscript
+- [Manuscript Index](../outputs/manuscript/index.md)
+
 ### Concepts
 - [Company](concepts/company/index.md)
 - [What a Company Is and What It Does](concepts/company/what-a-company-is-and-what-it-does.md)

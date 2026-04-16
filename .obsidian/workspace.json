@@ -185,6 +185,7 @@
   },
   "active": "64ab910c70824de3",
   "lastOpenFiles": [
+    "outputs/manuscript/index.md",
     "wiki/chapters/what-a-company-is-and-what-it-does.md",
     "wiki/concepts/company/what-a-company-is-and-what-it-does.md",
     "outputs/manuscript/what-a-company-is-and-what-it-does-draft.md",
@@ -214,7 +215,6 @@
     "wiki/concepts/company/index.md",
     "wiki/concepts/company/how-a-company-is-built",
     "wiki/concepts/company",
-    "wiki/concepts/company.md",
     "journal",
     "outputs/assets",
     "outputs/proposals",

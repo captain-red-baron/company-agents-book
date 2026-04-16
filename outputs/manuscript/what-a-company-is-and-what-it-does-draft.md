@@ -4,6 +4,14 @@ DRAFT
 
 If you want to understand the company of the future, you first have to understand the company of the present. That sounds obvious, but most people carry around a thin definition of what a company actually is. Some think a company is basically a legal entity. Others think it is a team. Others think it is a product, a brand, or a cap table. None of those are fully wrong. They are just incomplete.
 
+To make this concrete, let me introduce Hannah Schmidt. Hannah always had an entrepreneurial mind, even when she was still employed. She worked in a software development agency, delivered project after project, sat in status meetings, and watched other people make slow decisions about products they did not really love. The work was respectable, but it did not feel alive. Hannah had something else that did feel alive: sewing. She loved fabrics, patterns, tailoring, and the strange mix of precision and craft that sits behind a well-made garment.
+
+At some point she noticed something that would not leave her alone. But she could not make a living through it. She studied computer science to make some money, but could she somehow combine her passion and her skills? Hannah discovered through her friend Tom industrial sewing. Basically big cool machines that can automatically create pieces of clothing. Industrial sewing and tailoring machines were powerful, but much of the software around them still felt clumsy, outdated, and badly integrated. Factories had expensive hardware, fragmented workflows, too much manual intervention, and too little intelligence in the system. Hannah did what entrepreneurial people often do when they become deeply dissatisfied: she stopped only complaining about the problem and started imagining a company around it.
+
+She decided to build software for industrial sewing and tailoring machines.
+
+That is where this chapter begins. Because once Hannah moves from employee to founder, she runs into a much bigger question than product design. What exactly is the thing she is trying to build? What is a company, really?
+
 The more useful way to think about a company is this: a company is a bounded system organized to create, deliver, and capture value.
 
 That definition matters because it combines two questions that are too often split apart. What is a company? And what does it do? A company is not a static object. It is a system. And what that system is for is not abstract. It is there to create value for someone, deliver that value in the real world, and capture enough of that value to survive, reinvest, and grow.
@@ -28,7 +36,7 @@ The first thing a company needs is a boundary.
 
 At the outermost layer, that boundary is legal. The company becomes a recognized entity that can own assets, sign contracts, receive payments, bear liability, and persist beyond the biography of any one founder. That matters, but for this book it is not the deepest layer. It is the shell.
 
-You can see why that shell is useful with a simple example. Imagine Leonie Hartmann, an entrepreneur building a software company. A large enterprise customer wants to work with her. They want one contract, one invoice, one accountable party, and one legal counterparty if things go wrong. That is manageable when they deal with Leonie's company. It becomes exhausting if they have to negotiate separately with Leonie, her lead engineer, her operations freelancer, her customer success lead, and every specialist who touches the work. The legal company turns scattered effort into one recognizable actor.
+You can see why that shell is useful in Hannah's case immediately. A textile manufacturer wants to modernize a production line and integrate Hannah's software into its industrial sewing and tailoring machines. The buyer wants one contract, one invoice, one accountable party, and one legal counterparty if something fails on the factory floor. That is manageable when they deal with Hannah's company. It becomes exhausting if they have to negotiate separately with Hannah, her lead engineer, her implementation specialist, her machine-interface contractor, and every freelancer touching the system. The legal company turns scattered effort into one recognizable actor.
 
 But the more interesting boundary is economic.
 
@@ -36,9 +44,9 @@ This is where [Ronald Coase](https://chicagounbound.uchicago.edu/journal_article
 
 [Oliver Williamson](https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf) pushed this further. The firm becomes especially valuable when transactions are difficult, adaptation is constant, and the real world refuses to fit neatly into complete contracts. In those cases, hierarchy is not just bureaucracy. Sometimes it is the cheapest way to manage complexity.
 
-Leonie sees this every week. In the good version of her company, a customer asks for a difficult integration. Sales scopes the opportunity. Product judges whether it fits the roadmap. Engineering estimates complexity. Operations updates delivery timing. Leonie makes the tradeoff. The work moves. Nobody writes five new contracts just because priorities changed on Tuesday.
+Hannah sees this every week. In the good version of her company, a garment manufacturer asks for a difficult machine integration. Sales scopes the opportunity. Product judges whether it fits the roadmap. Engineering estimates complexity. Operations updates delivery timing. Hannah makes the tradeoff. The work moves. Nobody writes five new contracts just because priorities changed on Tuesday.
 
-Now imagine the bad version. Leonie has no real firm, only a loose network of independent specialists. The same customer request comes in, but now every move requires a new negotiation. Who owns the risk if the integration fails? Who gets paid for revisions? Who decides whether the request is worth doing? Who absorbs delays caused by a customer changing their mind? Who is allowed to say no? In that world, a huge amount of managerial energy is burned not on building value, but on renegotiating cooperation itself.
+Now imagine the bad version. Hannah has no real firm, only a loose network of independent specialists. The same customer request comes in, but now every move requires a new negotiation. Who owns the risk if the machine integration fails? Who gets paid for revisions? Who decides whether the customer request is worth doing? Who absorbs delays caused by a production manager changing requirements halfway through implementation? Who is allowed to say no? In that world, a huge amount of managerial energy is burned not on building value, but on renegotiating cooperation itself.
 
 That is the economic purpose of the boundary. It allows the company to become a zone of directed coordination.
 
@@ -64,13 +72,13 @@ That means the company needs a control system. Not because people are evil, but 
 
 This is where reporting, incentives, approval rights, monitoring, pricing rules, management rhythm, ownership structures, and decision rights start to matter. They are not bureaucratic decoration. They are the mechanisms through which a company prevents drift.
 
-Leonie learns this the hard way after hiring a head of sales. She wants profitable, durable customers who fit the product roadmap and do not overload implementation. Her sales leader wants to maximize bookings this quarter. At first the mismatch is subtle. The pipeline looks good. Then a few large custom deals get signed. Engineering is pulled into one-off work. Implementation slows down. Customer success gets overloaded. Revenue looks stronger on paper even as the company itself gets weaker.
+Hannah learns this the hard way after hiring a head of sales. She wants profitable, durable factory customers who fit the product roadmap and do not overload implementation. Her sales leader wants to maximize bookings this quarter. At first the mismatch is subtle. The pipeline looks good. Then a few large custom deals get signed. Engineering is pulled into one-off machine configurations. Implementation slows down. Support gets overloaded. Revenue looks stronger on paper even as the company itself gets weaker.
 
 That is not just a sales problem. It is an agency problem.
 
 And this is where [Alfred Chandler](https://www.library.hbs.edu/working-knowledge/remembering-alfred-chandler) belongs next to Jensen and Meckling. Chandler helps us see that management is not mere overhead. Management is a productive technology. It is how the company forces coherence across complexity.
 
-Leonie responds by building a stronger control system. She introduces a weekly operating review. She clarifies who can approve custom pricing. She creates explicit handoff checkpoints between sales and delivery. She defines who owns delivery risk. Suddenly the company gets less chaotic, not because anybody became smarter, but because the system became clearer.
+Hannah responds by building a stronger control system. She introduces a weekly operating review. She clarifies who can approve custom pricing. She creates explicit handoff checkpoints between sales and deployment. She defines who owns delivery risk. Suddenly the company gets less chaotic, not because anybody became smarter, but because the system became clearer.
 
 That is what the control system does. It aligns action.
 
@@ -84,7 +92,7 @@ If the control system answers the question, "How do we stay pointed in the same 
 
 This is where many entrepreneurs instinctively live. They feel the company through shipping, selling, hiring, supporting, delivering, invoicing, and solving problems. And they are right to do so. A company that cannot repeatedly turn effort into delivered value does not have much of a future, no matter how impressive its mission statement sounds.
 
-You can see this in Leonie's business too. Her company has to take demand from the market, convert it into scoped work, turn that work into reliable delivery, and do it in a way that customers experience as value rather than confusion. That is an operating engine, whether she uses that phrase or not.
+You can see this in Hannah's business too. Her company has to take demand from the market, convert it into scoped work, turn that work into reliable machine software, deployments, support, and measurable factory improvement, and do it in a way that customers experience as value rather than confusion. That is an operating engine, whether she uses that phrase or not.
 
 This matters for the larger thesis of the book because when AI agents enter the picture, they will enter here first in a visible way. They will write drafts, process requests, support research, manage workflows, analyze data, generate code, and coordinate small tasks. In other words, they will begin by changing the operating engine.
 
@@ -100,7 +108,7 @@ That is a beautiful idea. Resources do not matter only because they exist. They 
 
 This is what I think of as the capability engine. It is the accumulated layer of routines, judgment, managerial knowledge, operating memory, customer understanding, and learned pattern recognition inside the firm.
 
-Leonie notices this when a larger competitor enters her market with more funding and a bigger team. On paper, the competitor should win. But Leonie's company still executes better. Her onboarding is tighter. Her product judgment is better. Her team knows how to handle customer edge cases faster. Problems surface earlier. Decisions get made with less drama. The competitor has more resources. Leonie's firm has stronger capabilities.
+Hannah notices this when a larger competitor enters her market with more funding and a bigger team. On paper, the competitor should win. But Hannah's company still executes better. Her onboarding is tighter. Her product judgment is better. Her team knows how to handle factory edge cases faster. Problems surface earlier. Decisions get made with less drama. The competitor has more resources. Hannah's firm has stronger capabilities.
 
 That difference is everything.
 
@@ -125,4 +133,3 @@ But the company will still need to do the same essential work. It will still nee
 The real question is not whether the company survives.
 
 The real question is what kind of company can survive, and win, when one human can suddenly coordinate far more intelligence, execution, and adaptation than used to fit inside a traditional organization chart.
-
