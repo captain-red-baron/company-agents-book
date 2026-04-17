@@ -44,6 +44,10 @@ As the project grows, this file should point to the most important book, chapter
 - [Human Agents and AI Agents](concepts/agents/human-agents-and-ai-agents/index.md)
   - [Principal-Agent Theory and AI](concepts/agents/human-agents-and-ai-agents/principal-agent-theory-and-ai.md)
   - [Transferring Work Models](concepts/agents/human-agents-and-ai-agents/transferring-work-models.md)
+- [Agentic Processes](concepts/agents/agentic-processes/index.md)
+  - [Business Processes 101](concepts/agents/agentic-processes/business-processes-101.md)
+  - [Agentic Process Execution](concepts/agents/agentic-processes/agentic-process-execution.md)
+  - [Agentic Harnesses](concepts/agents/agentic-processes/agentic-harnesses.md)
 
 ### Examples
 - No pages yet
@@ -61,7 +65,8 @@ As the project grows, this file should point to the most important book, chapter
 - [raw/research/2026-04-14-company-architecture-research.md](../raw/research/2026-04-14-company-architecture-research.md)
 - [raw/research/2026-04-14-company-goal-research.md](../raw/research/2026-04-14-company-goal-research.md)
 - [raw/research/2026-04-16-agent-definitions-research.md](../raw/research/2026-04-16-agent-definitions-research.md)
+- [raw/research/2026-04-17-agentic-processes-research.md](../raw/research/2026-04-17-agentic-processes-research.md)
 
 ## Last Updated
 
-2026-04-16
+2026-04-17

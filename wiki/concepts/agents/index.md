@@ -27,6 +27,9 @@ How agents are built — from the classical perception-reasoning-action loop to 
 ### [Human Agents and AI Agents](human-agents-and-ai-agents/index.md)
 The bridge chapter. Why human agents and AI agents face the same fundamental problems, and why the management practices for one can inform the design of the other.
 
+### [Agentic Processes](agentic-processes/index.md)
+The operational payoff. How agents invert the classical business process management model — instead of modeling processes in advance, agents construct them at runtime. Includes the harness layer where modern agentic engineering actually happens.
+
 ---
 
 ## Key Claims
