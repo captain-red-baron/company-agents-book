@@ -36,7 +36,19 @@ Two very different people, two very different jobs. But the same structure.
 
 Then introduce the formal definition: an agent is an entity that perceives its environment, reasons about what to do, acts to achieve goals on behalf of a principal, and learns from outcomes. Show this is the same definition Russell and Norvig gave in 1995, Wooldridge and Jennings formalized the same year, and every major AI company restates today. Name the key researchers. The definition has been stable for thirty years because it describes a real structural pattern.
 
-**Hannah's AI agent example:** Six months later, Hannah deploys an AI agent to handle first-level customer support inquiries about machine configuration. The agent receives a customer message (perceives), processes it against the product documentation and past tickets (reasons), generates a response or escalates to a human (acts), and its responses are evaluated and fed back into the system (learns). It has a scope (configuration questions only), authority (can answer and close standard tickets, must escalate billing and hardware issues), context (product docs, customer history), and goals (resolve tickets accurately and quickly).
+**Hannah's AI agent example — a walk through the loop:** Six months later, Hannah deploys an AI support agent to handle first-level configuration inquiries on her industrial sewing software. A customer writes in: *"Our Juki MF-7900 is skipping stitches after the last firmware update. Anything we can do?"* Now watch what the agent actually does, one turn of the loop at a time.
+
+**Perceive.** The harness receives the message and assembles the agent's view of the world: the customer's identity and plan tier, recent tickets on this machine, the current firmware version, and the MF-7900 section of the product documentation retrieved from a vector store. None of this is magic — it is just the agent's senses. Reading the inbound message, pulling the customer record via a CRM tool call, fetching the service history, retrieving the relevant documentation. The LLM sees the composed picture in its context window.
+
+**Reason.** The model produces a reasoning trace: *the complaint is mechanical-sounding (skipped stitches), but the trigger was a firmware update, which points to a software regression rather than a hardware issue. Known issue? Let me check.* The agent decides it needs more information before responding and selects the next action. This is the "Thought" step in the classical ReAct pattern. The reasoning is visible — you can read it in the logs later.
+
+**Act.** The agent calls a tool: `search_known_issues(machine="MF-7900", firmware="4.2.1")`. The tool returns a match: a documented regression in that firmware release, with a recommended rollback procedure. The agent now has what it needs. It drafts a response for the customer with the rollback steps, cites the internal issue reference, and offers to schedule a technician if the rollback does not resolve the problem. Before sending, it checks its guardrails: is this within scope? (yes, configuration and firmware.) Is confidence above the threshold? (yes.) Does anything require escalation? (no.) The response goes out. The ticket is closed with a note attached to the customer's record.
+
+**Learn.** That run leaves a trail. The full reasoning trace, every tool call, and the final response are logged. A human spot-checks one in every ten tickets. The customer's satisfaction rating flows back into an evaluation dataset. When a pattern emerges — say, the agent is misdiagnosing a specific error code — Hannah updates the system prompt, adds a few-shot example, or extends the knowledge base. The agent itself does not learn in the neural-network sense between runs. The *system around the agent* learns, and the agent's behavior changes because its context and instructions change.
+
+That full cycle — perceive, reason, act, learn — is what an LLM agent in the loop actually does. It is not a metaphor. It is a runtime loop: context assembly, model inference, tool execution, state update, evaluation. Every turn. Every ticket. Thousands of times a day.
+
+Scope, authority, context, and goals are all explicit: scope (configuration questions only), authority (can answer and close standard tickets, access product docs and customer history; cannot touch billing, cannot promise features), context (product docs, past tickets, customer record), goals (resolve accurately, escalate when unsure, never fabricate features).
 
 The punchline: Lukas, Marco, and the support agent are all running on the same architecture. Perception-reasoning-action-learn. Delegated authority within boundaries. Goals set by the principal. The medium is different. The structure is identical.
 
@@ -171,4 +183,4 @@ Agent architectures (classical and modern), the perception-reasoning-action loop
 
 ## Last Updated
 
-2026-04-16
+2026-04-17
