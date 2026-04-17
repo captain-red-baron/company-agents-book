@@ -2,6 +2,10 @@
 
 Large language models changed what is possible with agents, but they did not change the fundamental architecture. Modern LLM agents still perceive, reason, act, and learn. What changed is the reasoning engine — from hand-coded logic and formal planners to general-purpose language models that can handle ambiguity, incomplete instructions, and novel situations. This section maps the new patterns and shows where they fit in the design space that Russell, Wooldridge, and the BDI researchers charted decades ago.
 
+![Anatomy of an AI Agent](../../../../outputs/assets/anatomy-of-an-ai-agent.png)
+
+The diagram above shows the foundational building block Anthropic calls the **augmented LLM** — a reasoning engine (the LLM) wrapped with four capabilities: **instructions** (what the principal has delegated), **knowledge** (what can be retrieved), **tools** (how the agent acts), and **memory** (what persists across interactions). Every modern agentic system, from a simple chatbot to a fully autonomous agent, is built by composing this block. See Anthropic's [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) for the original formulation.
+
 ## Sections
 
 ### Core Idea

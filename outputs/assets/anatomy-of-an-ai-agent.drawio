@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2026-04-17" agent="book-project" version="24.0.0" type="device">
+  <diagram id="anatomy-of-an-ai-agent" name="Anatomy of an AI Agent">
+    <mxGraphModel dx="1200" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Anatomy of an AI Agent" style="text;html=1;fontSize=26;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="350" y="25" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="A reasoning engine augmented with instructions, knowledge, tools, and memory" style="text;html=1;fontSize=13;fontStyle=2;align=center;fontFamily=Helvetica;fontColor=#888888;" vertex="1" parent="1">
+          <mxGeometry x="250" y="62" width="700" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Central LLM -->
+        <mxCell id="llm" value="&lt;b style=&quot;font-size:22px;letter-spacing:2px&quot;&gt;LLM&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;font-size:11px;opacity:0.85&quot;&gt;reasoning engine&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#252545;strokeColor=#1a1a40;strokeWidth=3;fontColor=#ffffff;fontFamily=Helvetica;arcSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="200" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Instructions (top) -->
+        <mxCell id="instructions" value="&lt;b style=&quot;font-size:16px;letter-spacing:0.8px&quot;&gt;INSTRUCTIONS&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;font-size:10.5px;opacity:0.85&quot;&gt;Goals, role, policies, guardrails — what the principal has delegated&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#4a2a5e;fontFamily=Helvetica;arcSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="165" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge (left) -->
+        <mxCell id="knowledge" value="&lt;b style=&quot;font-size:16px;letter-spacing:0.8px&quot;&gt;KNOWLEDGE&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;font-size:10.5px;opacity:0.85&quot;&gt;Retrieval from documents, databases, search — what the agent can look up&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontColor=#2d6a2e;fontFamily=Helvetica;arcSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Tools (right) -->
+        <mxCell id="tools" value="&lt;b style=&quot;font-size:16px;letter-spacing:0.8px&quot;&gt;TOOLS&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;font-size:10.5px;opacity:0.85&quot;&gt;APIs, functions, code execution — how the agent acts in the world&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontColor=#7a6520;fontFamily=Helvetica;arcSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="350" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Memory (bottom) -->
+        <mxCell id="memory" value="&lt;b style=&quot;font-size:16px;letter-spacing:0.8px&quot;&gt;MEMORY&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;font-size:10.5px;opacity:0.85&quot;&gt;Conversation history, learned context, persistent state across sessions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontColor=#2c5282;fontFamily=Helvetica;arcSize=20;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="c1" style="endArrow=none;strokeColor=#5a5a7a;strokeWidth=2.5;" edge="1" parent="1" source="instructions" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" style="endArrow=none;strokeColor=#5a5a7a;strokeWidth=2.5;" edge="1" parent="1" source="knowledge" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" style="endArrow=none;strokeColor=#5a5a7a;strokeWidth=2.5;" edge="1" parent="1" source="llm" target="tools">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" style="endArrow=none;strokeColor=#5a5a7a;strokeWidth=2.5;" edge="1" parent="1" source="llm" target="memory">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Input -->
+        <mxCell id="input_lbl" value="&lt;b&gt;INPUT&lt;/b&gt;&lt;br/&gt;&lt;i style=&quot;font-size:10px;color:#999&quot;&gt;user query / task&lt;/i&gt;" style="text;html=1;fontSize=12;fontFamily=Helvetica;fontColor=#777777;align=center;" vertex="1" parent="1">
+          <mxGeometry x="15" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="input_arrow" style="endArrow=classicThin;startArrow=none;html=1;dashed=1;dashPattern=6 4;strokeColor=#888888;strokeWidth=2;exitX=1;exitY=0;entryX=0;entryY=0.7;" edge="1" parent="1" source="input_lbl" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Output -->
+        <mxCell id="output_lbl" value="&lt;b&gt;OUTPUT&lt;/b&gt;&lt;br/&gt;&lt;i style=&quot;font-size:10px;color:#999&quot;&gt;response / action&lt;/i&gt;" style="text;html=1;fontSize=12;fontFamily=Helvetica;fontColor=#777777;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="output_arrow" style="endArrow=classicThin;startArrow=none;html=1;dashed=1;dashPattern=6 4;strokeColor=#888888;strokeWidth=2;exitX=1;exitY=0.3;entryX=0.5;entryY=1;" edge="1" parent="1" source="llm" target="output_lbl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom comparison — Marco -->
+        <mxCell id="marco_head" value="For Marco (sales rep)" style="text;html=1;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="marco_rows" value="&lt;b style=&quot;color:#4a2a5e&quot;&gt;Instructions:&lt;/b&gt; territory, pricing rules, product positioning&lt;br/&gt;&lt;b style=&quot;color:#2d6a2e&quot;&gt;Knowledge:&lt;/b&gt; product docs, competitor notes, pricing sheet&lt;br/&gt;&lt;b style=&quot;color:#252545&quot;&gt;Reasoning:&lt;/b&gt; judgment built from experience and training&lt;br/&gt;&lt;b style=&quot;color:#7a6520&quot;&gt;Tools:&lt;/b&gt; CRM, email, calendar, proposal generator&lt;br/&gt;&lt;b style=&quot;color:#2c5282&quot;&gt;Memory:&lt;/b&gt; customer history, ongoing deals, past objections" style="text;html=1;fontSize=11;fontFamily=Helvetica;fontColor=#555555;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="380" height="85" as="geometry" />
+        </mxCell>
+
+        <!-- Bridge text -->
+        <mxCell id="bridge" value="Same five components.&lt;br/&gt;Different substrate." style="text;html=1;fontSize=12;fontStyle=2;align=center;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="480" y="695" width="240" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom comparison — AI support agent -->
+        <mxCell id="ai_head" value="For the AI support agent" style="text;html=1;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="780" y="660" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_rows" value="&lt;b style=&quot;color:#4a2a5e&quot;&gt;Instructions:&lt;/b&gt; system prompt, policies, escalation rules&lt;br/&gt;&lt;b style=&quot;color:#2d6a2e&quot;&gt;Knowledge:&lt;/b&gt; RAG over product docs and past tickets&lt;br/&gt;&lt;b style=&quot;color:#252545&quot;&gt;Reasoning:&lt;/b&gt; LLM inference over context window&lt;br/&gt;&lt;b style=&quot;color:#7a6520&quot;&gt;Tools:&lt;/b&gt; ticket API, order lookup, escalation handoff&lt;br/&gt;&lt;b style=&quot;color:#2c5282&quot;&gt;Memory:&lt;/b&gt; conversation state, customer profile, feedback history" style="text;html=1;fontSize=11;fontFamily=Helvetica;fontColor=#555555;align=left;" vertex="1" parent="1">
+          <mxGeometry x="780" y="680" width="380" height="85" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
