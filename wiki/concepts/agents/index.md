@@ -6,6 +6,8 @@ This research cluster explores what agents are, how they are built, and what it 
 
 ---
 
+![The Agent Architecture Loop](../../outputs/assets/agent-architecture-loop.png)
+
 ## Working Definition
 
 An **agent** is a bounded entity that (1) perceives its environment, (2) reasons about what to do, (3) acts to achieve goals on behalf of a principal, and (4) learns from outcomes. This perception-reasoning-action loop is the universal pattern — it appears in Russell and Norvig's textbook, in the BDI model of practical reasoning, in every modern LLM agent framework, and in how any competent human employee operates.

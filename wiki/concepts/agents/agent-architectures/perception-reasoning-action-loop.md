@@ -2,6 +2,8 @@
 
 The perception-reasoning-action loop is the universal pattern of agency. Every agent — a human employee, a 1990s software agent, a modern LLM system — operates by perceiving its environment, reasoning about what to do, acting, and observing the outcome. This is not a metaphor. It is a structural description that has remained stable across thirty years of agent research and centuries of organizational practice.
 
+![The Agent Architecture Loop](../../../../outputs/assets/agent-architecture-loop.png)
+
 ## Sections
 
 ### Core Idea
@@ -63,32 +65,7 @@ Diagnosing which phase failed is the first step in fixing any agent — human or
 
 #### Visual Description
 
-The canonical PRA diagram is a circle with four nodes:
-
-```
-    ┌──────────┐
-    │ PERCEIVE │
-    └────┬─────┘
-         │
-         ▼
-    ┌──────────┐
-    │  REASON  │
-    └────┬─────┘
-         │
-         ▼
-    ┌──────────┐
-    │   ACT    │
-    └────┬─────┘
-         │
-         ▼
-    ┌──────────┐
-    │  LEARN   │
-    └────┬─────┘
-         │
-         └──────── (back to PERCEIVE)
-```
-
-The environment sits outside this loop. Perception draws from the environment. Action affects the environment. Learning closes the feedback loop.
+See the diagram at the top of this page. The four nodes — Perceive, Reason, Act, Learn — form a continuous loop around the environment. Perception draws from the environment. Action affects the environment. Learning closes the feedback loop. The bottom of the diagram shows how the same loop maps onto human agents and AI agents.
 
 ### Source Links
 

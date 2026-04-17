@@ -32,6 +32,8 @@ Then there is Marco, the sales rep. Hannah needs someone talking to textile manu
 
 Two very different people, two very different jobs. But the same structure.
 
+![The Agent Architecture Loop](../../outputs/assets/agent-architecture-loop.png)
+
 Then introduce the formal definition: an agent is an entity that perceives its environment, reasons about what to do, acts to achieve goals on behalf of a principal, and learns from outcomes. Show this is the same definition Russell and Norvig gave in 1995, Wooldridge and Jennings formalized the same year, and every major AI company restates today. Name the key researchers. The definition has been stable for thirty years because it describes a real structural pattern.
 
 **Hannah's AI agent example:** Six months later, Hannah deploys an AI agent to handle first-level customer support inquiries about machine configuration. The agent receives a customer message (perceives), processes it against the product documentation and past tickets (reasons), generates a response or escalates to a human (acts), and its responses are evaluated and fed back into the system (learns). It has a scope (configuration questions only), authority (can answer and close standard tickets, must escalate billing and hardware issues), context (product docs, customer history), and goals (resolve tickets accurately and quickly).
