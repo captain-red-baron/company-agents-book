@@ -10,6 +10,12 @@ The previous chapter established that human agents and AI agents share the same 
 
 The chapter should leave the reader thinking: "The harness is the new BPMN. It is the thing I design, own, and improve. And I can start designing one on Monday."
 
+### A Note on Scope
+
+This chapter is deliberately **not** about a specific product, framework, or vendor. The agentic orchestration space is moving faster than any book can track. Between the moment this chapter is written and the moment a reader opens it, at least one new framework will have launched, one managed service will have repositioned, and one current market leader will have shipped a breaking change. Naming products is unavoidable — the argument needs concrete examples — but the argument itself is framework-agnostic. The reader should treat every named product as an *instance* of a pattern, not as a recommendation. The patterns are the durable thing: the agent loop, the brain-vs-hands split, the virtualized session-harness-sandbox abstractions, the six design questions. Those will outlast the specific tools the chapter mentions.
+
+Where the text names LangGraph, Claude Agent SDK, OpenAI Agents SDK, Microsoft Agent Framework, Anthropic Managed Agents, or any other specific offering, the reader should mentally append: "and the current equivalent at the time you are reading this." The intent is to point at a category, not to endorse a vendor.
+
 ### Core Argument
 
 Classical operations were organized around the business process — the diagram, the SOP, the workflow engine. Agentic operations are organized around the harness — the runtime infrastructure that wraps an LLM and turns it into a goal-directed, tool-using, auditable executor. The harness is where company-specific operational knowledge now lives, where the important engineering effort now goes, and where competitive differentiation in the agent era will compound. Understanding harness design — its seven components, the brain-vs-hands split, the operating-system-style abstractions emerging around it — is the new core operational literacy for entrepreneurs and operators.
@@ -94,6 +100,8 @@ The sourcing question. Three honest options:
 Working recommendation for most readers: start with a managed harness; move to a framework when you hit a wall; build only with concrete evidence that the harness is a differentiating asset.
 
 Emphasize the principle: do not confuse *operating* a harness with *differentiating through* one. Very different things. Most companies only need the first.
+
+**Repeat the scope note here.** The specific products named in this section will have shifted by the time the reader encounters them. New entrants will have appeared, some names will have merged or been acquired, and the feature matrix will look different. What will *not* change is the three-way choice: build, use a framework, or rent a managed service. Apply the logic; pick whatever fits the category at the time you are reading.
 
 #### Closing Beat
 
