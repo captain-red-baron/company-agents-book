@@ -13,7 +13,6 @@ This page is the working table of contents for the manuscript of **1 Human - 100
 ### Draft Chapters
 
 - [What a Company Is and What It Does](what-a-company-is-and-what-it-does-draft.md)
-- [Agentic Systems and the Harness](agentic-systems-and-harnesses-draft.md)
 
 ### Notes
 
