@@ -16,13 +16,13 @@ That is where Hannah's story begins, and it is where the question this chapter a
 
 The weak definitions in your head are not neutral. They bias every decision you make.
 
-If you think a company is a legal entity, you over-invest in paperwork and under-invest in the thing the paperwork wraps around. You feel productive because you are signing documents. You are signing documents.
+If you think a company is only an empty legal entity, you over-invest in paperwork and under-invest in the thing the paperwork wraps around. You feel productive because you are signing documents.
 
-If you think a company is a team, you hire fast and hope the culture holds. You confuse activity with progress. The team gets bigger. The output does not.
+If you think of a company primarily as a team, you hire fast and hope the culture holds. You confuse activity with progress. The team gets bigger. The output does not.
 
-If you think a company is a product, you ship and then wonder why revenue does not follow. A product is one artifact. A company is the entire system that puts that artifact in front of the right buyer, again and again, at a price that leaves room to reinvest.
+If you think a company is centered around a product, you ship and then wonder why revenue does not follow. A product is one artifact. A company is the entire system that puts that artifact in front of the right buyer, again and again, at a price that leaves room to reinvest.
 
-If you think a company is a cap table, you confuse funding with value. You raise money and call it traction. Your investors call it runway.
+If you think a company is nothing more than a cap table, you confuse funding with value. You raise money and call it traction. Your investors call it runway.
 
 Each of these views is a fragment. None of them is wrong. All of them are too small. A small model of what you are building is the most expensive thing a founder can carry, because every mis-sized decision gets made from it.
 

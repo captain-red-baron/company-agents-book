@@ -274,6 +274,14 @@ The goal is not just to define a company abstractly, but to build a strong found
 
 ---
 
+## Handling the Author's Local Edits
+
+Marcel edits manuscript and wiki files directly. Treat every change he makes locally as **deliberate** — a stylistic choice, a tonal adjustment, a phrasing he prefers, or an intentional structural move. Do not revert, "restore," or silently rewrite his edits back to the LLM-generated version.
+
+**Exception — always fix:** genuine grammatical errors, spelling mistakes, broken punctuation, obviously dropped words, and mechanical typos in his edits. These are not deliberate choices; these are slips. Fix them quietly as part of whatever you are doing next in that file. Do not call attention to them and do not frame the fix as a correction of his writing — just clean them up.
+
+Rule of thumb: if a change looks like a preference, keep it. If it looks like a missing word, a doubled article ("a only an"), a wrong form ("primary" for "primarily"), or a dropped verb, fix it.
+
 ## Default Operating Principle
 
 This repository should evolve from **idea capture -> knowledge base -> chapter drafts -> finished manuscript**.
