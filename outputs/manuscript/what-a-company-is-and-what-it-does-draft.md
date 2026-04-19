@@ -109,9 +109,9 @@ Pull up a blank page. Write the 5 layers down. Score your own company 1 to 10 on
 
 ## Endnotes
 
-<sup>1</sup> The foundational argument that firms exist because using the open market has real costs — search, negotiation, contracting, enforcement — was first made in "The Nature of the Firm" (1937). The deeper extension of this idea into how firms decide what to keep inside versus buy from the market was recognized by the Nobel Prize Committee in economics in 2009.
+<sup>1</sup> Ronald H. Coase (1937). *The Nature of the Firm.* Economica, New Series, Vol. 4, No. 16, pp. 386–405. [https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.1937.tb00002.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.1937.tb00002.x). The boundary question — what firms do inside versus buy from the market — was extended into transaction-cost economics by Oliver E. Williamson, *Markets and Hierarchies: Analysis and Antitrust Implications* (New York: Free Press, 1975), and *The Economic Institutions of Capitalism* (New York: Free Press, 1985). Williamson received the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel in 2009 for this work; see the Nobel lecture at [https://www.nobelprize.org/prizes/economic-sciences/2009/williamson/lecture/](https://www.nobelprize.org/prizes/economic-sciences/2009/williamson/lecture/).
 
-<sup>2</sup> The idea that a firm is best understood as a bundle of productive services extracted from resources, rather than the resources themselves, comes from the theory of the growth of the firm first published in 1959 and still considered foundational in strategy research today.
+<sup>2</sup> Edith T. Penrose (1959). *The Theory of the Growth of the Firm.* Oxford: Basil Blackwell. Fourth edition, with a new introduction by Christos N. Pitelis, Oxford University Press, 2009. [https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844](https://global.oup.com/academic/product/the-theory-of-the-growth-of-the-firm-9780199573844). Penrose's central claim — that a firm is a bundle of productive services extracted from resources, rather than the resources themselves — remains foundational to the resource-based view of strategy.
 
 ## Sources
 

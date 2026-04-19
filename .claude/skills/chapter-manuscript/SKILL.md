@@ -174,10 +174,12 @@ You may occasionally surface the institution (not the author) for credibility:
 > underestimate how much of their work is already automatable by current AI systems.
 
 ### In the endnotes (end of chapter or end of book):
-> <sup>3</sup> Wang et al. (2023), *AgentBench: Evaluating LLMs as Agents*. Full citation
-> available at [URL or journal reference].
 
-Keep endnote entries concise. One line per reference if possible.
+Endnotes must give the full academic-style citation — **every** author (spell out all names; no "et al." even here), the full title of the work, year, publisher or journal with volume and pages where applicable, and a link to the original source (DOI, stable URL, or canonical publisher page) whenever one exists. The body text stays clean; the endnote is where the credibility lives.
+
+> <sup>3</sup> Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, and Jie Tang (2023). *AgentBench: Evaluating LLMs as Agents.* arXiv:2308.03688. [https://arxiv.org/abs/2308.03688](https://arxiv.org/abs/2308.03688).
+
+If a work has many authors, list all of them. If it is a book, give author, title, publisher, year, and edition. If it is an institutional report, give the institution, title, and year. The rule is: an informed reader should be able to find the exact source from the endnote without further searching.
 
 ### Rules for references:
 - No "et al." in the main prose. Ever.
