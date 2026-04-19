@@ -13,13 +13,13 @@ That was the moment the frustration and the fascination collided. Hannah could f
 
 That is where Hannah's story begins, and it is where the question this chapter answers stops being abstract. The moment she left the agency, she was no longer an employee inside someone else's company. She was the one building one. She had to decide — quickly — what the word "company" actually meant. Hannah is the recurring example we will follow across this entire book. When we talk about agents, harnesses, control systems, and 100-agent fleets, she will be there, running the same company in progressively different versions of the agentic world.
 
-## The Problem With Every Definition You Already Have
+## What Most Founders Miss About What a Company Is About
 
-Every entrepreneur who actually builds something has one trait in common. They carry a clear picture in their head of what a company is. Not a diagram they copied from a book. A stable, working mental model of the whole thing, solid enough to make decisions from on a Tuesday afternoon when 3 things are on fire at once.
+Every entrepreneur who actually builds something has one trait in common. They carry a clear picture in their head of what a company is about. Not a definition they copied from a book. A stable, working mental model of the whole thing, solid enough to make decisions from on a Tuesday afternoon when 3 things are on fire at once.
 
-That picture is the difference. It is why some operators make 10 correct small decisions a day while others make 10 almost-correct ones. And the same trait shows up in entrepreneurial employees — the head of a product line, the operator running a regional P&L, the team lead who punches above their title inside a 500-person firm. They run their corner of the company like a company because they have a picture of what one actually is. The picture does not have to be elaborate. It has to be *complete.* Every layer accounted for.
+That picture is the difference. It is why some operators make 10 correct small decisions a day while others make 10 almost-correct ones. And the same trait shows up in entrepreneurial employees — the head of a product line, the operator running a regional P&L, the team lead who punches above their title inside a 500-person firm. They run their corner of the company like a company because they understand what a company is *for* and how its parts fit together. The picture does not have to be elaborate. It has to be *complete.* Every layer accounted for.
 
-Most founders and operators do not have that picture. They have a fragment of it. And a fragment is worse than nothing, because it feels like knowledge. The weak definitions in your head are not neutral. They bias every decision you make.
+Most founders and operators do not have that picture. They have a fragment of it. And a fragment is worse than nothing, because it feels like understanding. The thin view in your head of what a company is about is not neutral. It biases every decision you make.
 
 If you think a company is only an empty legal entity, you over-invest in paperwork and under-invest in the thing the paperwork wraps around. You feel productive because you are signing documents.
 
@@ -29,11 +29,11 @@ If you think a company is centered around a product, you ship and then wonder wh
 
 If you think a company is nothing more than a cap table, you confuse funding with value. You raise money and call it traction. Your investors call it runway.
 
-Each of these views is a fragment. None of them is wrong. All of them are too small. A small model of what you are building is the most expensive thing a founder can carry, because every mis-sized decision gets made from it.
+Each of these views is a fragment. None of them is wrong. All of them are too small. A small picture of what your company is about is the most expensive thing a founder can carry, because every mis-sized decision gets made from it.
 
 Hannah spent her first 6 months running the fragment version. She chased the legal shell — company formation, tax setup, trademark, a clean set of standard contracts. All of it necessary. None of it moved the real company forward. When she signed her first customer, she realized she had optimized the wrapper and barely thought about the engine inside.
 
-That is the cost of a small definition. You do the work that feels like building, while the real building stays untouched.
+That is the cost of seeing only part of what a company is about. You do the work that feels like building, while the real building stays untouched.
 
 ## The Definition That Actually Works
 
