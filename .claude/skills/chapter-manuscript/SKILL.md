@@ -30,6 +30,20 @@ real experience. The reader is smart and busy. Respect their time.
 
 ---
 
+## Dashes: STRICT RULE
+
+Do **not** use em-dashes (`—`) or en-dashes (`–`). A single plain hyphen (`-`) is always enough. This is a deliberate stylistic choice — the em-dash is an AI-writing tell, and Marcel's prose does not use it.
+
+| ❌ Never write | ✅ Always write |
+|---|---|
+| `It was — and still is — the only way` | `It was - and still is - the only way` |
+| `three verbs — create, deliver, capture` | `three verbs - create, deliver, capture` |
+| `2020–2025` | `2020-2025` |
+
+Use spaces around the hyphen when it functions as a parenthetical break (`word - phrase - word`). No spaces inside compound words or number ranges.
+
+---
+
 ## Contractions: STRICT RULE
 
 Marcel does **not** use contractions. Ever. This is a deliberate stylistic choice.
