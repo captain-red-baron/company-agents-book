@@ -224,6 +224,8 @@ When creating book deliverables:
 4. Mark outputs as `DRAFT` until explicitly reviewed
 5. Store work in the appropriate `outputs/` subfolder
 
+**Manuscript rule (hard requirement):** Any work on files inside `outputs/manuscript/` — creating, drafting, editing, rewriting, or reviewing chapter prose — MUST invoke the `chapter-manuscript` skill *before* writing or editing. That folder is the book itself; everything in it goes through the voice, style, and structural rules defined in the skill. The `wiki/` tree is research and does not trigger the skill. The `outputs/manuscript/` tree does, every time. Other `outputs/` subfolders (outlines, proposals, assets, marketing) do not trigger this skill either — manuscript-only.
+
 During drafting:
 - Prefer a practical business-book voice over an academic voice
 - Use direct address where it strengthens the relationship with the reader
