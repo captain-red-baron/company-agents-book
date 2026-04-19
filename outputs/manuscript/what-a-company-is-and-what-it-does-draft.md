@@ -1,5 +1,5 @@
 
-# What a Company Is and What It Does
+# The Company
 
 Most founders cannot tell you what a company actually is. Ask ten of them and you get ten answers - a legal entity, a team, a product, a cap table, a brand. Each answer is partly right, but if you forgot about other aspects, you might run into trouble. This chapter gives you a single working model of what a company is, what it does, and why that matters if you plan to run one with a small team of humans and a large team of agents.
 
@@ -7,7 +7,7 @@ Let me introduce you to Hannah Schmidt. You will meet her many times in this boo
 
 The frustration was not about one bad project. It was about the shape of the work. Every feature took twice as long as it should have. Every decision passed through 4 people who were not the decider. Customer problems got filtered into a backlog and lost their urgency on the way there. Hannah watched competent engineers burn weeks on work that did not matter, while the work that did matter sat untouched for months. By the end of year 3 she was writing side-project specs in the evenings just to feel like something was moving.
 
-And something else was happening in those evenings. Hannah had started playing with the new wave of AI agent tools. Claude Code, Codex, the agent frameworks shipping almost every week. She used them to prototype, to refactor, to spin up small services that would have taken a junior engineer half a week. What landed was not the novelty of the tools. It was the contrast. A side project running on 3 agents was moving faster than her 9-person team at the agency ever did. She started to wonder, half seriously at first and then not half seriously at all, whether a company built around agents from day 1 would simply skip over the coordination mess she sat inside every Tuesday.
+And something else was happening in those evenings. Hannah had started playing with the new wave of AI agent tools. Claude, Codex and all the other agent frameworks shipping new groundbreaking features almost every week. She used them to prototype, to refactor, to spin up small services that would have taken a junior engineer half a week. A side project running on 3 agents was moving faster than her 9-person team at the agency ever did. She started to wonder, half seriously at first and then not half seriously at all, whether a company built around agents from day 1 would simply skip over the coordination mess she sat inside every Tuesday.
 
 Hannah had also, over the years alongside her job, developed a passionate hobby: sewing. She loved it. It was a real fascination with fabric, construction, and the precision behind a well-made garment. Through a friend she got to know the world of industrial sewing and tailoring machines. Large and really expensive machines that people spend a lot of money on. Machines that stitch pockets onto jeans at 3,000 stitches per minute and run production lines that cannot afford to stop. And the software running around those machines was, according to her friend and to her eye, embarrassing - fragmented, clunky, badly integrated, and held together by Excel and patience.
 
@@ -17,33 +17,27 @@ That is where Hannah's story begins. The moment she left the agency, she was no 
 
 Maybe you can find yourself or somebody you know in Hannah.
 
-## What Most Founders Miss About What a Company Is About
+## What a Company Is About
 
-Every entrepreneur who actually builds something has one trait in common. They understand *intrinsically* what a company is actually about. Not what the pitch decks say. Not what the startup podcasts say. Not what their MBA classmates repeat to each other at dinner. They carry an internalized, working grasp of what a company is *for* - and they act from it every single day, even if it is hard for them to put the picture into words.
+Most entrepreneurs who actually build something have one trait in common. They carry an internalized, working grasp of what a company is *for* - and they act from it every single day, even if it is hard for them to put the picture into words. Not what the pitch decks say. Not what the startup podcasts say. Not what their MBA classmates repeat to each other at dinner.
 
-At its core, a company is not only a legal wrapper around an idea. It is not only a team chasing a product. It is not exclusively a brand, a cap table, or a deck. A company is a system whose only job is to create real value for someone, deliver it reliably, and capture enough of that value to keep going and to compound over time. Everything else - the branding, the fundraising, the hiring, the strategy decks - serves that one job, or it is wasted motion.
-
-Hannah spent her first 6 months running in circles. She chased the legal shell - company formation, tax setup, trademark, a clean set of standard contracts. All of it necessary. None of it moved the real company forward. When she signed her first customer, she realized she had optimized the wrapper and barely thought about the engine inside.
-
-That is the cost of seeing only part of what a company is about. You do the work that feels like building, while the real building stays untouched.
-
-## What a Company Actually Is
-
-Here is the model I want in your head.
+Here is the picture they operate from, whether they can articulate it or not.
 
 **A company is a bounded system organized to create, deliver, and capture value.**
 
-Read that again. Every word is doing work.
+A company is not only a legal wrapper around an idea. It is not only a team chasing a product. It is not exclusively a brand, a cap table, or a deck. Everything else - the branding, the fundraising, the hiring, the strategy decks - serves that one job, or it is wasted motion. Every word in the sentence above is doing real work.
 
 *System.* A company is not a thing. It is a set of parts that interact. Change one part and the others respond. You cannot optimize a company by optimizing one piece.
 
-*Bounded.* It has an edge. Inside the edge, you coordinate. Outside the edge, you transact. That edge is the reason companies exist at all. Picture running Hannah's business with no firm around it. Every engineer is a fresh contract. Every customer call is a new negotiation. Every bug fix needs a scope, a price, a signature, and a lawsuit if it breaks. The market can do all of that - in theory. In practice, the search, the haggling, the policing, the coordination cost you real money and real weeks, every single time.<sup>1</sup> The boundary is the trick that lets you stop paying those costs for the work you do over and over again.
+*Bounded.* It has an edge. Inside the edge, you coordinate. Outside the edge, you transact. That edge is the reason companies exist at all. Picture running Hannah's business with no firm around it. Every engineer is a fresh contract. Every customer call is a new negotiation. Every bug fix needs a scope, a price, a signature, and a dispute if it breaks. The market can do all of that - in theory. In practice, the search, the haggling, the policing, the coordination cost you real money and real weeks, every single time.<sup>1</sup> The boundary is the trick that lets you stop paying those costs for the work you do over and over again.
 
 *Organized.* There is direction. Someone points the system toward a goal. A group without direction is not a company. It is a group with a shared email domain.
 
 *Create, deliver, capture value.* Three verbs, not one. Most founders can do one. A few can do two. The ones who can do all three build companies that last.
 
-That is the definition. Now you need a way to see it. A picture you can hold in your head while you make decisions.
+Hannah will spend her first 6 months running in circles against this. She will chase the legal shell - company formation, tax setup, trademark, a clean set of standard contracts. All of it necessary. None of it moves the real company forward. By the time she signs her first customer, she will realize she optimized the wrapper and barely thought about the engine inside. That is the cost of seeing only part of what a company is about. You do the work that feels like building, while the real building stays untouched.
+
+Now you need a way to see the whole system. A picture you can hold in your head while you make decisions.
 
 ## The Architecture of a Company
 
@@ -53,38 +47,40 @@ There are many ways to describe a company's architecture. Strategy textbooks do 
 
 ![The Architecture of a Company](../assets/company-architecture.png)
 
-To make each component concrete, I will walk you through what it does and immediately show you what it looks like in Hannah's company. Remember: Hannah is standing at Day 1 - no customers yet, no team yet, just her, the incorporation papers, and a plan. The Hannah sketches below are what each component will look like in a few years, once the company is running. That is the picture she has to hold in her head long before she has any of it.
+To make each component concrete, I will walk you through what it does and immediately show you what it would look like in Hannah's company. Hannah is standing at Day 1 - no customers yet, no team yet, just her, the incorporation papers, and a plan. For the next few pages, we will sketch the company she *would* build on the traditional path - the version with a real team of employees, offices, and middle managers. This is the path most founders still take by default. Later in the book, we will watch Hannah walk the other path: a 1-human, 100-agent company that covers the same architecture without the headcount. The sketches below use conditional language on purpose - this is the hypothetical classical company, not a prediction of what Hannah actually does.
 
 **Component 1 - Direction.**
 What value you create, for whom, how you deliver it, and how you capture it back. Segment, promise, price, margin. If you cannot say this in 3 sentences, your direction is not yet real. Direction is not static - it develops over time.
 
-For Hannah, this will mean selling software that modernizes industrial sewing and tailoring machines. Her target will be mid-size garment factories in Europe. Her promise will be fewer manual interventions and measurable throughput gains. Her price will be a per-machine annual license with a setup fee. Direction will take her longer to nail than she expects. In the early months, her positioning will drift between too many customer types and she will lose deals she should have won.
+For Hannah, this would mean selling software that modernizes industrial sewing and tailoring machines. Her target would be mid-size garment factories in Europe. Her promise would be fewer manual interventions and measurable throughput gains. Her price would be a per-machine annual license with a setup fee. Direction would take her longer to nail than she expects. In the early months, her positioning would drift between too many customer types and she would lose deals she should have won.
 
 **Component 2 - Boundary.**
 Two parts. The *legal boundary* is one entity that can sign contracts, take payments, and bear liability. The *economic boundary* is what you do inside the firm versus what you buy from the market. 
 
-Hannah's company will be a single German GmbH. One legal counterparty for factories that want one invoice, one contract, one person to call when a machine stops stitching at 3 in the morning. That is the legal boundary doing its job. 
+Hannah's company would be a single German GmbH. One legal counterparty for factories that want one invoice, one contract, one person to call when a machine stops stitching at 3 in the morning. That is the legal boundary doing its job.
 
-On the economic side, she will make a specific call early: the core machine-interface software gets built inside the firm; everything else - cloud infrastructure, CRM, accounting, design - gets purchased from the market. That is outside of the boundary of her company. That single decision will shape her gross margins more than any pricing move she makes later.
+On the economic side, she would make a specific call early: the core machine-interface software gets built inside the firm; everything else - cloud infrastructure, CRM, accounting, design - gets purchased from the market. That is outside of the boundary of her company. That single decision would shape her gross margins more than any pricing move she makes later.
 
 **Component 3 - Control System.**
 The mechanisms that keep the company pointed the same way when people, money, and time pull sideways. Approvals, reporting lines, pricing rules, weekly operating reviews, decision rights. Not bureaucracy. Alignment infrastructure. The moment you hire a second person, the control system starts mattering, whether you design it or not.
 
-Eventually Hannah will run a weekly operating review with her future employees every Monday. Sales commits to a weekly number. Engineering commits to a shipping target. Support reports open critical tickets. Custom deals above 50,000 EUR require her personal sign-off. These mechanisms will exist because at some point, before they exist, someone on her team will start booking custom deals that engineering cannot deliver. Revenue will look great on paper. The company will be getting weaker. That is the exact failure mode a control system prevents.
+Eventually Hannah would run a weekly operating review with her employees every Monday. Sales would commit to a weekly number. Engineering would commit to a shipping target. Support would report open critical tickets. Custom deals above a certain threshold would require her personal sign-off. These mechanisms would exist because at some point, before they exist, someone on her team would start booking custom deals that engineering cannot deliver. Revenue would look great on paper. The company would be getting weaker. That is the exact failure mode a control system prevents.
 
 **Component 4 - Operating Engine.**
 The daily machine. Leads come in. They get qualified. They get sold. The product gets built. It gets deployed. It gets supported. Invoices go out. Cash comes back. Most founders feel the company most strongly here, because this is where the week happens. Every one of those steps is a *business process* - a repeatable sequence of actions that can be modelled, traced, measured, and, increasingly, executed by agents.<sup>3</sup>
 
-Hannah's engine will be mapped. A factory lead will get qualified in one discovery call, run through one scoped demo, close on a standard contract, deploy in 4 weeks, and transition to support by week 6. She will draw this out on a whiteboard, not because she loves process diagrams, but because a mapped engine is one you can measure, improve, and eventually hand to agents. The unmapped engine is the one that only she can run.
+Hannah's engine would be mapped. A factory lead would get qualified in one discovery call, run through one scoped demo, close on a standard contract, deploy in 4 weeks, and transition to support by week 6. She would draw this out on a whiteboard, not because she loves process diagrams, but because a mapped engine is one you can measure, improve, and eventually hand to agents. The unmapped engine is the one that only she can run.
 
 **Component 5 - Capability Engine.**
 The part most founders miss entirely. It is the compounding component. Every quarter, does your company get better at running the operating engine? Do your onboardings get tighter? Do your deals close faster? Does support resolve issues with less handholding? A firm is not just the resources it holds - it is the productive services it can extract from those resources.<sup>2</sup> Two companies with the same headcount, the same capital, and the same product can perform very differently because of this one component.
 
-For Hannah, this is where her edge will actually live. After a few years and dozens of deployments across different machine families, her team will have produced a library of machine-specific quirks, integration patterns, and customer-education scripts that a new competitor cannot replicate in under 2 years without running the same deployments. A larger competitor with 4 times her funding will keep showing up in her deals. They will keep losing. Not because Hannah is smarter. Because her capability engine is denser.
+For Hannah, this is where her edge would actually live. After a few years and dozens of deployments across different machine families, her team would have produced a library of machine-specific quirks, integration patterns, and customer-education scripts that a new competitor cannot replicate in under 2 years without running the same deployments. A larger competitor with 4 times her funding would keep showing up in her deals. They would keep losing. Not because Hannah is smarter. Because her capability engine is denser.
 
 Strip any of these 5 components and the company falls apart in a predictable way. No direction, the team drifts. No boundary, the market eats the margin. No control system, the incentives break. No operating engine, nothing ships. No capability engine, you stay a startup forever.
 
 This is the company. Not a logo. Not a Notion workspace. It is a system.
+
+And this is also the map you will use for the rest of the book. Every one of these 5 components is a place where agents attach: agents that sharpen Direction by reading the market in real time, agents that enforce the Control System with evaluations and audit trails, agents that run Operating Engine steps end-to-end, and agents that feed the Capability Engine by turning every deployment into reusable knowledge. The architecture tells you where human attention still has to live - and where it does not.
 
 Hold that picture in your head, because in the next chapter we zoom inside this system. We look at the actors who actually do the work - the agents, human and artificial. The architecture is the field. The agents are the players. One human and 100 agents is the team you will eventually field on it.
 
