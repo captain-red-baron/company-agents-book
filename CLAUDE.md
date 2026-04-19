@@ -274,6 +274,32 @@ The goal is not just to define a company abstractly, but to build a strong found
 
 ---
 
+## Diagrams: Draw.io Source Plus PNG Export
+
+Obsidian cannot render `.drawio` files inline. Whenever you create or update a draw.io diagram in `outputs/assets/`, you must also produce a high-resolution PNG export of it, sitting next to the `.drawio` source with the same filename (e.g. `company-architecture.drawio` + `company-architecture.png`).
+
+**Embedding rule:** In any manuscript chapter, wiki page, or other Markdown file, reference **only the PNG**, never the `.drawio` file. The `.drawio` stays in git as the editable source; the PNG is what readers and Obsidian actually render.
+
+The draw.io CLI is installed on this machine via Homebrew (`brew install --cask drawio`, binary at `/opt/homebrew/bin/drawio`). Always export the PNG yourself with:
+
+```
+drawio --export --format png --scale 2 --output <path>.png <path>.drawio
+```
+
+Run this every time a `.drawio` file is created or modified. Do not leave a broken image link and do not fall back to linking the `.drawio` file.
+
+**Visual QA pass (mandatory).** After every export, open the PNG with the Read tool and inspect it as an image. Check that:
+
+- Nothing overlaps - boxes do not collide, arrow labels do not sit on top of arrows or other boxes, text does not escape its container.
+- Fonts are readable at the rendered size - title ≥ 18pt equivalent, box labels ≥ 14pt, descriptions ≥ 10pt, arrow labels ≥ 9pt. If the diagram gets denser, increase the canvas, not shrink the type.
+- Elements are aligned - boxes on the same row share a Y coordinate, boxes in the same column share an X coordinate, spacing is even. Use round numbers in the `.drawio` geometry; crooked coordinates read as sloppy.
+- Arrows land on the intended anchor points and do not pass through other shapes.
+- Color contrast works on both white and dark backgrounds (Obsidian dark mode is common).
+
+If any of those checks fail, edit the `.drawio`, re-export, and look again. Iterate until the diagram passes its own QA pass before handing it to Marcel.
+
+---
+
 ## Handling the Author's Local Edits
 
 Marcel edits manuscript and wiki files directly. Treat every change he makes locally as **deliberate** — a stylistic choice, a tonal adjustment, a phrasing he prefers, or an intentional structural move. Do not revert, "restore," or silently rewrite his edits back to the LLM-generated version.
