@@ -17,11 +17,13 @@ That is where Hannah's story begins, and it is where the question this chapter a
 
 ## What Most Founders Miss About What a Company Is About
 
-Every entrepreneur who actually builds something has one trait in common. They carry a clear picture in their head of what a company is about. Not a definition they copied from a book. A stable, working mental model of the whole thing, solid enough to make decisions from on a Tuesday afternoon when 3 things are on fire at once.
+Every entrepreneur who actually builds something has one trait in common. They understand what entrepreneurship is really about. Not what the pitch decks say. Not what the startup podcasts say. Not what their MBA classmates repeat to each other at dinner. They carry an internalized, working grasp of what an entrepreneur is *for* - and they act from it every single day.
 
-That picture is the difference. It is why some operators make 10 correct small decisions a day while others make 10 almost-correct ones. And the same trait shows up in entrepreneurial employees - the head of a product line, the operator running a regional P&L, the team lead who punches above their title inside a 500-person firm. They run their corner of the company like a company because they understand what a company is *for* and how its parts fit together. The picture does not have to be elaborate. It has to be *complete.* Every layer accounted for.
+At its core, entrepreneurship is not about having an idea. It is not about raising money. It is not about being your own boss. Entrepreneurship is about building a system that creates real value for someone, delivers it reliably, and captures enough of that value to keep going and compound over time. Everything else - the branding, the fundraising, the hiring, the strategy decks - serves that one thing, or it is wasted motion.
 
-Most founders and operators do not have that picture. They have a fragment of it. And a fragment is worse than nothing, because it feels like understanding. The thin view in your head of what a company is about is not neutral. It biases every decision you make.
+The operators who grasp this make different decisions. They say no to impressive-looking work that does not create value. They do not confuse activity with progress. They do not confuse their feelings with the state of the business. They treat the company as a machine they are responsible for shaping, not as a stage where they perform a role. The same trait shows up in entrepreneurial employees - the head of a product line, the operator running a regional P&L, the team lead who punches above their title inside a 500-person firm. They act like entrepreneurs on their slice of the business because they have internalized what entrepreneurship is really doing.
+
+Most founders and operators have not. They run on a version of it that lives one layer too shallow. They think entrepreneurship is about energy, charisma, hustle, or speed. Those are useful. None of them is the thing. And that shallow understanding shows up, unsurprisingly, as a thin picture of what the company itself is about. The view in your head is not neutral. It biases every decision you make.
 
 If you think a company is only an empty legal entity, you over-invest in paperwork and under-invest in the thing the paperwork wraps around. You feel productive because you are signing documents.
 
